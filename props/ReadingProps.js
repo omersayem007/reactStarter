@@ -6,7 +6,7 @@ class Comment extends React.Component {
           {this.props.author}    //Replace the hard-coded text within the <p> tag that has the class comment-header to read in the author prop instead.
         </p>
         <p className="comment-body">
-          I wanna know what love is...
+         { this.props.body }    //Now let's replace the hard-coded text within the <p> tag that has the class comment-body to read in the body prop.
         </p>
         <div className="comment-actions">
           <a href="#">Delete comment</a>
