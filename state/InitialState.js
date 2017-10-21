@@ -50,7 +50,7 @@ class CommentBox extends React.Component {
 
 class Comment extends React.Component {
 
-//declaring a constructor() function on the Comment component. Remember, from inside the constructor() we must call super() as the very first thing.
+//declaring a constructor( function on the Comment component. Remember, from inside the constructor() we must call super() as the very first thing.
 //Next, let's declare an Initial State to the Comment component by assigning it as an empty object.
 //Now, let's add a property to the newly created state object and call it isAbusive. Then let's set it as false by default.
 
