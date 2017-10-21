@@ -79,6 +79,11 @@ class Comment extends React.Component {
     );
   }
   
+  //Let's declare a new method in the Comment component called _toggleAbuse(). Then let's make it receive one argument called event and call event.preventDefault() to prevent the page from being reloaded when the method is called.
+  //Next, let's toggle the isAbusive state. To toggle it we'll set isAbusive to true if it's false; and set it to false if it's true.
+  //Now let's add an onClick handler to the "Report as Abuse" button that calls the _toggleAbuse method. Tip: don't forget to bind() the method to the current context when you pass it to the event handler. You do not need to pass event to the call to bind(), only the current context ( this).
+  
+  
   _toggleAbuse(event){
     event.preventDefault();
     
